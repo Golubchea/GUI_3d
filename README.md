@@ -31,13 +31,13 @@ make -j8
 
 Needs to run opengl in ubuntu
 
-sudo apt install libext-dev
-sudo apt install libx11-dev
-sudo apt install libgl1-mesa-dev
-sudo apt install libglu1-mesa-dev
-sudo apt install libxext-dev
+*sudo apt install libext-dev
+*sudo apt install libx11-dev
+*sudo apt install libgl1-mesa-dev
+*sudo apt install libglu1-mesa-dev
+*sudo apt install libxext-dev
 
-sudo apt install libsdl2-dev
+*sudo apt install libsdl2-dev
 
 
 
