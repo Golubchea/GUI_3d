@@ -18,9 +18,10 @@ Features:
 * 1 dependency, only SDL2 (included in libs folder)
 * my own matrix math
 
+Hotkeys:
+* wasd, middle mouse  -moving camera, i o- top, front view of object, t,r,e,q,c - translate, rotate, scale object,snap to grid ,use local coordinates
 
 Compiling
-
 
 in root directory:
 mkdir build 
@@ -28,17 +29,14 @@ cd build
 cmake ..
 make -j8
 
-deps:
+Needs to run opengl in ubuntu
 
-
-#needs to run opengl in ubuntu
 sudo apt install libext-dev
 sudo apt install libx11-dev
 sudo apt install libgl1-mesa-dev
 sudo apt install libglu1-mesa-dev
 sudo apt install libxext-dev
 
-#sdl2 
 sudo apt install libsdl2-dev
 
 
