@@ -1,12 +1,10 @@
 # GUI_3d
---------
 	
 ![view](/gui3d.png)
 
 Simple graphic application for modelling or map editor purposes
  
 # Features: 
---------
 
 * json load save
 * gui written on callback functions
@@ -19,12 +17,12 @@ Simple graphic application for modelling or map editor purposes
 * my own matrix math
 
 # Hotkeys:
---------
+
 * wasd, middle mouse  -moving camera, i o- top, front view of object, t,r,e,q,c - translate, rotate, scale object,snap to grid ,use local coordinates
 f-12 screenshot
 
 # Compiling:
----------
+
 in root directory:
 mkdir build 
 cd build 
@@ -32,6 +30,7 @@ cmake ..
 make -j8
 
 # Third party:
+
 tiny-gizmo
 stbfreetype
 stbimage
@@ -39,14 +38,14 @@ stbimage-write
 sdl2
 
 # Needs to run opengl in ubuntu
-----------
-*sudo apt install libext-dev
-*sudo apt install libx11-dev
-*sudo apt install libgl1-mesa-dev
-*sudo apt install libglu1-mesa-dev
-*sudo apt install libxext-dev
 
-*sudo apt install libsdl2-dev
+* sudo apt install libext-dev
+* sudo apt install libx11-dev
+* sudo apt install libgl1-mesa-dev
+* sudo apt install libglu1-mesa-dev
+* sudo apt install libxext-dev
+
+* sudo apt install libsdl2-dev
 
 
 
